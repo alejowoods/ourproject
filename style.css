@@ -10,9 +10,28 @@
 /* nav section */
 .navigation {  
     background-color: black;
+<<<<<<< HEAD
     padding: 20px;
     
    
+=======
+    padding: 22px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav a {
+    font-weight: bold;
+    color: white;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+>>>>>>> main
 }
 
 .left_nav{
@@ -36,7 +55,7 @@
 }
 
 
-.nav_help {
+.nav_help{
     margin-left: 8px;
 }
 
@@ -90,6 +109,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.search_header{
+padding: 10px 0px;
+font-size:50px;
+font-weight: 500;
+
+}
+
+.search_box{
+    padding: 15px;
+    width: 55%;
+    
+}
+
+.search_box:hover{
+   border-color: #7586f6;
+}
+>>>>>>> main
+
 
 /* body section */
 
@@ -113,8 +152,12 @@ h4 {
 .prod_logo {
     border: 1px black solid;
     padding: 10%;
+<<<<<<< HEAD
 
     width: 30%;
+=======
+    width: calc(30% - 20px);
+>>>>>>> main
     margin: 1%;
     text-align: justify;
     box-sizing: border-box;
@@ -195,33 +238,13 @@ a {
     height: 50px;
     width: 50px;
 }
+<<<<<<< HEAD
 .copy-right {
     position: absolute;
     right: 0;
     bottom: 0;
-    margin: 0 30px 60px 100px;
-    line-height: 30px;
-    font-size: 20px;
+    margin: 0 30px 30px 100px;
 
 }
-.help-btn {
-    height: 50px;
-    width: 50px;
-    border-radius: 999rem;
-    color: blue !important;
-    background-color: blue;
-    fill: white !important;
-    border-color: blue;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    letter-spacing: 0.6;
-    font-size: 1.07143rem;
-    border: none;
-    display: grid;
-    
-}
-strong {
-    margin-top: 30px;
-    font-size: 16px;
-}
+=======
+>>>>>>> main
