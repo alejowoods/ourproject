@@ -88,6 +88,7 @@ nav ul{
 }
 
 
+
 .search_area{
     background-color: #dadbf1;
     text-align: center;
@@ -101,9 +102,16 @@ nav ul{
     font-weight: 400;
 }
 
+.search__btn{
+    background-color: white;
+    border-style: none;
+    margin-left: -40px;
+}
+
 .search_box{
     padding: 10px 10px;
     width:550px ;
+    
 }
 
 .search_box:hover{
