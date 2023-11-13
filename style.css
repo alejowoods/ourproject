@@ -1,20 +1,37 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 
 
 /* body section */
 
 .products {
-    height: 300px;
-    width: 100%;
+    
+    
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
-    background-color: violet;
+    background-color: whitesmoke;
 }
 
 .prod_logo {
     border: 1px black solid;
     padding: 10%;
+    width: 30%;
+    margin: 1%;
+    text-align: justify;
+}
+.menu_image {
+    float: left;
+    margin-right: 5px;
+    width: 4em;
+    height: auto;
+}
+
+.par_text {
+    text-align: justify;
+    flex: 1;
 }
