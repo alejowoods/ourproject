@@ -106,8 +106,20 @@ nav ul{
     width:52% ;
 }
 
+
 .search_box:hover{
-    border-color: #677bfe;
+     border-color: #677bfe;
+}    
+.search_box,i:hover{
+     color: #677bfe;
+     
+
+}
+
+.search__btn{
+  border: none;
+  background-color: #fff;
+  margin-left: -40px;
 }
 
 
