@@ -1,3 +1,4 @@
+
 /* basic */
 *{
     padding: 0;
@@ -9,6 +10,11 @@
 /* nav section */
 .navigation {  
     background-color: black;
+<<<<<<< HEAD
+    padding: 20px;
+    
+   
+=======
     padding: 22px;
 }
 
@@ -25,6 +31,7 @@ nav a {
     color: white;
      text-decoration: none;
      font-family: Arial, Helvetica, sans-serif;
+>>>>>>> main
 }
 
 .left_nav{
@@ -102,6 +109,8 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
 .search_header{
 padding: 10px 0px;
 font-size:50px;
@@ -118,6 +127,7 @@ font-weight: 500;
 .search_box:hover{
    border-color: #7586f6;
 }
+>>>>>>> main
 
 
 /* body section */
@@ -131,6 +141,8 @@ h4 {
 }
 
 .products {
+    
+    
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -140,7 +152,12 @@ h4 {
 .prod_logo {
     border: 1px black solid;
     padding: 10%;
+<<<<<<< HEAD
+
+    width: 30%;
+=======
     width: calc(30% - 20px);
+>>>>>>> main
     margin: 1%;
     text-align: justify;
     box-sizing: border-box;
@@ -171,6 +188,15 @@ h4 {
     text-align: justify;
     flex: 1;
 }
+footer {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+    color: white;
+    background-color: black;
+    position: relative;
+}
 
 .par_text h4 {
     margin-bottom: 0; 
@@ -178,14 +204,47 @@ h4 {
 
 .footer-container {
     margin: 0 auto;
-    width: 90%;
-    background-color: black;
-    color: white;
+    width: 100%;
+    font-weight: 900;
+    padding: 0 px 30px 60px;
+    font-size: 24px;
+    display: flex;
+    
 }
-.footer-container-info {
-    background: black;
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+
+    
 }
+h3 {
+    display: block;
+    margin: 48px 0 16px;
+    font-size: 24px;
+}
+
+
+a {
+   text-decoration: none; 
+   color: white;
+   font-size: 16px;
+   font-weight: 500;
+   
+}
+
+
 .abstract-logo-footer {
     height: 50px;
     width: 50px;
 }
+<<<<<<< HEAD
+.copy-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 30px 30px 100px;
+
+}
+=======
+>>>>>>> main
