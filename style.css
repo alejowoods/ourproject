@@ -1,18 +1,11 @@
-<<<<<<< HEAD
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-=======
-/* basic */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
->>>>>>> main
+
 
 
 /* nav section */
@@ -71,7 +64,6 @@ nav a {
 .prod_logo {
     border: 1px black solid;
     padding: 10%;
-<<<<<<< HEAD
     width: 30%;
     margin: 1%;
     text-align: justify;
@@ -87,8 +79,7 @@ nav a {
     text-align: justify;
     flex: 1;
 }
-=======
-}
+
 .footer-container {
     margin: 0 auto;
     width: 90%;
