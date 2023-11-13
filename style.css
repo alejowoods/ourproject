@@ -18,3 +18,16 @@
     border: 1px black solid;
     padding: 10%;
 }
+.footer-container {
+    margin: 0 auto;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+.footer-container-info {
+    
+}
+.abstract-logo-footer {
+    height: 50px;
+    width: 50px;
+}
