@@ -122,9 +122,17 @@ font-weight: 500;
 
 /* body section */
 
+body {
+    font-family: 'lato', sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+}
+
 .products {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: whitesmoke;
 }
@@ -132,10 +140,26 @@ font-weight: 500;
 .prod_logo {
     border: 1px black solid;
     padding: 10%;
-    width: 30%;
+    width: calc(30% - 20px);
     margin: 1%;
     text-align: justify;
+    box-sizing: border-box;
 }
+
+/* Ajusta las propiedades para pantallas más grandes */
+@media (min-width: 1200px) {
+    .prod_logo {
+        width: calc(48% - 20px);
+    }
+}
+
+/* Agrega reglas de estilo para mantener el diseño en dispositivos más pequeños */
+@media (max-width: 768px) {
+    .prod_logo {
+        width: 100%;
+    }
+}
+
 .menu_image {
     float: left;
     margin-right: 5px;
@@ -146,6 +170,10 @@ font-weight: 500;
 .par_text {
     text-align: justify;
     flex: 1;
+}
+
+.par_text h4 {
+    margin-bottom: 0; 
 }
 
 .footer-container {
