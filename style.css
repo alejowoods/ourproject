@@ -62,12 +62,14 @@ h4 {
 }
 
 .prod_logo {
-    border: 1px black solid;
-    padding: 10%;
+    border: 1px none;
+    padding: 1em;
     width: calc(30% - 20px);
     margin: 1%;
     text-align: justify;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 /* Ajusta las propiedades para pantallas más grandes */
@@ -89,6 +91,7 @@ h4 {
     margin-right: 5px;
     width: 4em;
     height: auto;
+    justify-content: center;
 }
 
 .par_text {
@@ -98,6 +101,14 @@ h4 {
 
 .par_text h4 {
     margin-bottom: 0; 
+}
+
+.learn_more {
+    text-decoration: none;
+}
+
+.learn_more:hover {
+    text-decoration: underline;
 }
 
 .footer-container {
